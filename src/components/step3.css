@@ -1,0 +1,86 @@
+.integration-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .integration-grid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .integration-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .primary-button,
+  .secondary-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .primary-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .secondary-button {
+    background-color: #f0f0f0;
+    color: black;
+  }
+  
+  .test-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .test-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .success-message,
+  .error-message {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: #4caf50;
+  }
+  
+  .success-emoji {
+    font-size: 2rem;
+  }
+  
+  .error-message {
+    color: #f44336;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .error-icon {
+    font-size: 1.5rem;
+  }
+  
+  

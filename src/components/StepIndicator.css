@@ -1,0 +1,49 @@
+
+
+
+.step-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .step-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .step-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .step-number.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .step-line {
+    height: 2px;
+    width: 50px;
+    background-color: #f0f0f0;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .step-line.active {
+    background-color: #4caf50;
+  }
+  
+  .with-line:last-child .step-line {
+    display: none;
+  }
+  

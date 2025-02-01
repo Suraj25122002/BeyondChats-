@@ -1,0 +1,70 @@
+.registration-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Increased gap between form elements */
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px; /* Increased padding for better input field size */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added subtle shadow to input fields */
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #4caf50; /* Green border on focus */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Highlight input field on focus */
+}
+
+.primary-button,
+.google-button {
+  padding: 10px 18px; /* Adjusted padding for slightly larger buttons */
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem; /* Slightly increased font size */
+  cursor: pointer;
+  width: 220px; /* Slightly wider buttons */
+  margin: 0 auto; /* Center the buttons horizontally */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added box shadow to buttons */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.primary-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.google-button {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.primary-button:hover,
+.google-button:hover {
+  transform: translateY(-2px); /* Slight upward movement on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+.google-button svg {
+  margin-right: 5px;
+}

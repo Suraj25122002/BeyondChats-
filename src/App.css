@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #e0eafc, #cfdef3); /* Light pastel blue gradient */
+  color: #333333;
+  min-height: 100vh;
+}
+
+.registration-flow {
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background for steps container */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for elevation */
+  background-color:  #F5F5F2;
+}
+
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-button.prev {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.nav-button.next {
+  background-color: #4caf50;
+  color: white;
+}
+
+.nav-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
