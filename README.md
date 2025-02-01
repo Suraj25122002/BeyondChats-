@@ -64,7 +64,7 @@ Setup Instructions
 git clone : https://github.com/Suraj25122002/BeyondChats-
 cd BeyondChats
 
-live link : 
+live link : https://beyond-chats-suraj-kumars-projects-d8ff6dbc.vercel.app/
 
 2. Install Dependencies
 
